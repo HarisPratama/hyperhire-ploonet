@@ -1,0 +1,35 @@
+/* .dropdown {
+    background: linear-gradient(135deg, #FF4E83 0%, #FFBB54 100%);
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+} */
+  
+.dropdown {
+    background: #141414;
+    border: 3px solid transparent; /* Set the border to transparent to see the gradient */
+    border-image-source: linear-gradient(135deg, #FF4E83 0%, #FFBB54 100%);
+    border-image-slice: 1; /* Use the full gradient */
+    border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #FF4E83; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #141414; /* Background color of the scrollbar track */
+    border-radius: 10px; /* Rounded corners for the scrollbar track */
+}
+
+/* For Firefox */
+.custom-scrollbar {
+    scrollbar-width: thin; /* Makes the scrollbar thinner */
+    scrollbar-color: #FF4E83 #141414; /* Thumb color and track color */
+}
