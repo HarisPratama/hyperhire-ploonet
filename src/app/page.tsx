@@ -232,17 +232,19 @@ export default function Home() {
 
               <div className="mt-14">
                 <div className="flex items-center gap-10">
-                  <div className="w-32 h-32 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
-                    <p className="text-white">STEP1</p>
-                    <Image
-                      src={File}
-                      alt="Next.js logo"
-                      width={40}
-                      height={50}
-                      className="mt-2 text-sm font-normal"
-                    />
+                  <div className="basis-1/3">
+                    <div className="w-32 h-32 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
+                      <p className="text-white">STEP1</p>
+                      <Image
+                        src={File}
+                        alt="Next.js logo"
+                        width={40}
+                        height={50}
+                        className="mt-2 text-sm font-normal"
+                      />
+                    </div>
                   </div>
-                  <div>
+                  <div className="basis-3/4">
                     <p className="text-2xl font-bold">제작 안내</p>
                     <p className="mt-2 text-lg font-medium">영상 제작 문의를 통해 의뢰 확인 후<br />
                     견적 및 진행 순서 안내</p>
@@ -256,11 +258,13 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-center gap-10 -mt-10">
-                  <div className="w-32 h-32 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
-                    <p className="text-white">STEP2</p>
-                    <div className="h-16"></div>
+                  <div className="basis-1/3">
+                    <div className="w-32 h-32 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
+                      <p className="text-white">STEP2</p>
+                      <div className="h-16"></div>
+                    </div>
                   </div>
-                  <div>
+                  <div className="basis-3/4">
                     <p className="text-2xl font-bold">영상 생성</p>
                     <p className="mt-2 text-lg font-medium">스크립트 수신 즉시 가상인간 영상 생성<br />
                     그외 이미지, 배경 음악 등 필요 요소 생성</p>
@@ -274,17 +278,19 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-center gap-10 -mt-10">
-                  <div className="w-32 h-32 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
-                    <p className="text-white">STEP3</p>
-                    <Image
-                      src={MediaPalyer}
-                      alt="Next.js logo"
-                      width={40}
-                      height={50}
-                      className="mt-2 text-sm font-normal"
-                    />
+                  <div className="basis-1/3">
+                    <div className="w-32 h-32 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
+                      <p className="text-white">STEP3</p>
+                      <Image
+                        src={MediaPalyer}
+                        alt="Next.js logo"
+                        width={40}
+                        height={50}
+                        className="mt-2 text-sm font-normal"
+                      />
+                    </div>
                   </div>
-                  <div>
+                  <div className="basis-3/4">
                     <p className="text-2xl font-bold">편집 및 납품</p>
                     <p className="mt-2 text-lg font-medium">편집 진행, 12~48시간 내 최종본 완성 및 납품</p>
                   </div>
@@ -310,68 +316,74 @@ export default function Home() {
 
               <div className="mt-14 card-service-active">
                 <div className="px-5 py-10">
-                  <div className="flex items-center gap-10">
-                    <div className="w-20 h-20 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
-                      <p className="text-white">STEP1</p>
-                      <Image
-                        src={File}
-                        alt="Next.js logo"
-                        width={24}
-                        height={31}
-                        className="mt-2 text-sm font-normal"
-                      />
+                  <div className="flex items-center gap-8">
+                    <div className="basis-1/3">
+                      <div className="w-20 h-20 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
+                        <p className="text-white">STEP1</p>
+                        <Image
+                          src={File}
+                          alt="Next.js logo"
+                          width={24}
+                          height={31}
+                          className="mt-2 text-sm font-normal"
+                        />
+                      </div>
                     </div>
-                    <div>
+                    <div className="basis-3/4">
                       <p className="text-lg font-bold">제작 안내</p>
-                      <p className="mt-2 text-sm font-medium">영상 제작 문의를 통해 의뢰 확인 후<br />
+                      <p className="mt-2 text-sm font-normal">영상 제작 문의를 통해 의뢰 확인 후<br />
                       견적 및 진행 순서 안내</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-10 ">
-                    <div className="w-20 h-20">
+                  <div className="flex items-center gap-8 ">
+                    <div className="basis-1/3 w-20 h-20">
                     </div>
-                    <div className="flex-1">
+                    <div className="basis-3/4">
                       <div className="h-px bg-slate-700 w-full"></div>
                     </div>
                   </div>
-                  <div className="flex items-center gap-10 ">
-                    <div className="w-20 h-20 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
-                      <p className="text-white">STEP2</p>
-                      <div className="h-16"></div>
+                  <div className="flex items-center gap-8 ">
+                    <div className="basis-1/3">
+                      <div className="w-20 h-20 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
+                        <p className="text-white">STEP2</p>
+                        <div className="h-16 w-20"></div>
+                      </div>
                     </div>
-                    <div>
+                    <div className="basis-3/4">
                       <p className="text-lg font-bold">영상 생성</p>
-                      <p className="mt-2 text-sm font-medium">스크립트 수신 즉시 가상인간 영상 생성<br />
+                      <p className="mt-2 text-sm font-normal">스크립트 수신 즉시 가상인간 영상 생성<br />
                       그외 이미지, 배경 음악 등 필요 요소 생성</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-10 ">
-                    <div className="w-20 h-20">
+                  <div className="flex items-center gap-8 ">
+                    <div className="basis-1/3 w-20 h-20">
                     </div>
-                    <div className="flex-1">
+                    <div className="basis-3/4">
                       <div className="h-px bg-slate-700 w-full"></div>
                     </div>
                   </div>
-                  <div className="flex items-center gap-10">
-                    <div className="w-20 h-20 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
-                      <p className="text-white">STEP3</p>
-                      <Image
-                        src={MediaPalyer}
-                        alt="Next.js logo"
-                        width={24}
-                        height={31}
-                        className="mt-2 text-sm font-normal"
-                      />
+                  <div className="flex flex-row items-center gap-8">
+                    <div className="basis-1/3">
+                      <div className="w-20 h-20 linear-gradient-background rounded-2xl flex flex-col justify-center items-center">
+                        <p className="text-white">STEP3</p>
+                        <Image
+                          src={MediaPalyer}
+                          alt="Next.js logo"
+                          width={24}
+                          height={31}
+                          className="mt-2 text-sm font-normal"
+                        />
+                      </div>
                     </div>
-                    <div>
+                    <div className="basis-3/4">
                       <p className="text-lg font-bold">편집 및 납품</p>
-                      <p className="mt-2 text-sm font-medium">편집 진행, 12~48시간 내 최종본 완성 및 납품</p>
+                      <p className="mt-2 text-sm font-normal">편집 진행, 12~48시간 내 최종본 완성 및 납품</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-10 ">
-                    <div className="w-20 h-20">
+                  <div className="flex items-center gap-8 ">
+                    <div className="basis-1/3 w-20 h-20">
                     </div>
-                    <div className="flex-1">
+                    <div className="basis-3/4">
                       <div className="h-px bg-slate-700 w-full"></div>
                     </div>
                   </div>
